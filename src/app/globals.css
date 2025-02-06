@@ -19,3 +19,12 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+#portal-root {
+  position: fixed;
+  z-index: 9999;
+}
+
+[data-rk] {
+  z-index: 9999;
+}
